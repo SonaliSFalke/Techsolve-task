@@ -251,4 +251,5 @@ footer {
     .left, .right{
       width: 100%;
     }
+    .right{margin:0}
   }
