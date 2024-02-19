@@ -110,7 +110,8 @@ iframe {
 .right-block p, .fourth-block p{font-size: 24px; font-weight: 400;}
 
 .block-3{
-  background-color: #142346;
+  background: linear-gradient(180.04deg, rgba(4, 19, 52, 0.78) -3.16%, rgba(15, 37, 84, 0.62) 99.42%),
+linear-gradient(0deg, #142346, #142346);
   display: flex;justify-content: center;
   align-items: center;
   padding: 4rem;
@@ -141,7 +142,8 @@ iframe {
   border-radius: 20px;
   padding: 20px   ;
   width: 350px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background: rgba(0,0,0,0.1);
+  
   /* margin:  0 auto; */
 }
 .group-c {
