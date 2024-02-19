@@ -127,7 +127,7 @@ iframe {
   color: #0f0f49;
   padding: 7px;
   border-radius: 20px;
-  margin-right: 10px;
+  margin-right: 30px;
 }
 
 .group-c .img img{
@@ -137,10 +137,11 @@ iframe {
 }
 .img-block{
   border: 1px solid #0f0f49;
-  box-shadow: 0px 0px 4px #dfdada;
+  box-shadow: 0px 0px 14px #3b3434;
   border-radius: 20px;
   padding: 20px   ;
   width: 350px;
+  background-color: rgba(0, 0, 0, 0.2);
   /* margin:  0 auto; */
 }
 .group-c {
@@ -151,11 +152,17 @@ iframe {
   margin-top: 25px;
   /* padding: 20px 0; */
 }
-.img-block{
+.fourth-block-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right{
   background-image: url("Group\ 37.png");
   background-repeat: no-repeat;
-  background-position: fixed;
-  background-size: cover;
+  /* background-position: fixed; */
+  /* background-size: cover; */
+  margin: 0 auto;
 }
 .img-text h4{font-size: 24px;}
 .bit-text, .up{font-size: 16px;}
@@ -210,6 +217,7 @@ footer {
     .ft-1{
       width: 350px;
     }
+    .topnav a img{width: 100%;}
   }
 
 
@@ -233,6 +241,7 @@ footer {
     p, li, div, .blk-1 ul li{
         font-size: 15px !important;
     }
+    .img-1 i{margin-right: 25px;}
 
    
    
@@ -248,9 +257,9 @@ footer {
     .img-block{
       width: 280px;
     }
+    .img-1 i{margin-right: 30px;}
     .left, .right{
       width: 100%;
     }
-    .right{margin:0}
-    .img-1 i{margin-right:25px;}
+    .right{margin: 0;}
   }
